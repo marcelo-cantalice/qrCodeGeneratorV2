@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>QR Code Generator</title>
+  </head>
+  <body>
+    <h1>QR Code Generator</h1>
+    <form action="/submit" method="POST">
+        <label for="url">URL:</label>
+        <input type="text" id="inputUrl" placeholder="Inform a URL" name="url" required>
+        <input type="submit"  value="Generate QR CODE">
+      </form>
+      <div id="qr-container"></div>
+  </body>
+</html>
